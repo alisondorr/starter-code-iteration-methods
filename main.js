@@ -31,7 +31,7 @@ printObject(main, activeUsers)
 // Map over the users array to show only the email addresses of the users.
 
 printKataHeading(main, 2)
-const emailUsers = users.map(users => users.email /= null);
+const emailUsers = users.map(user => user.email);
 main.append(JSON.stringify(emailUsers));
 
 // Kata 3: Use the .some() method
